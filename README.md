@@ -1,3 +1,14 @@
+<h1>⌨️ Algorithm Study</h1>
+알고리즘 풀이 저장소 ✍🏻
+
+<h1>🤲🏻 스터디 멤버</h1>
+<ul>
+  <li>JinLeebriller</li>
+  <li>rlatjsrnr</li>
+  <li>amung9914</li>
+  <li>suseok</li>
+</ul>
+
 <h1>✅ 스터디 규칙</h1>
 
 <ul>
