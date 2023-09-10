@@ -24,7 +24,14 @@ public class Solution {
 		 **
 		 *
 	*/
-	static void triangleLU(int n) 
+	static void triangleLU(int n){
+		for(int i=4; i>0; i--){
+			for(int j = 0; j<i; j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
 	
 	// 오른쪽 위가 직각인 이등변삼각형을 출력
 	/*
