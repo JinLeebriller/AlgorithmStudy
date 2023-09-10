@@ -7,9 +7,6 @@
 <a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=JinLeebriller/AlgorithmStudy" />
 </a>
-<a href="https://github.com/smetmoney">
-  <img src="https://contrib.rocks/image?repo=https://github.com/smetmoney" />
-</a>
 
 #
 ## ✅ 스터디 규칙
