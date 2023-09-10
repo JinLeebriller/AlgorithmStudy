@@ -12,7 +12,7 @@
 ## ✅ 스터디 규칙
 
 <ul>
-  <li>매주 일요일 오후 10시전까지 2문제씩 풀어서 Commit 및 Pull Request하기</li>
+  <li>매주 일요일 오후 10시 전까지 2문제씩 풀어서 Commit 및 Pull Request하기</li>
 </ul>
 
 #
