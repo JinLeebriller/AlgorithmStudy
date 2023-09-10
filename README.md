@@ -19,7 +19,20 @@
 ## 📓 저장소 관리 방법
 
 <ul>
-  <li>해당 저장소를 clone한 후 자신의 이름으로 브랜치를 생성</li>
   <li>문제를 풀고, 본인 이름의 폴더에 풀이 파일을 추가하여 본인 브랜치에 push</li>
   <li>반영되었다면 master로 Pull Request</li>
 </ul>
+
+#
+## 📮 Commit Convention
+- add: 풀이 추가
+- refactor : 풀이 리팩토링
+- fix: 모든 풀이 수정
+- docs: 문서 수정(코드 수정X)
+#
+```
+ex)
+add: 프로그래머스 레벨1 수박수박수박수 문제 풀이
+refactor: 프로그래머스 레벨1 수박수박수박수 문제 리팩토링
+```
+
