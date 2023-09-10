@@ -4,9 +4,6 @@
 
 #
 ## 🤲🏻 스터디 멤버
-<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=JinLeebriller/AlgorithmStudy" />
-</a>
 
 #
 ## ✅ 스터디 규칙
