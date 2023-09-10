@@ -8,6 +8,8 @@
   <img src="https://contrib.rocks/image?repo=JinLeebriller/AlgorithmStudy" />
 </a>
 
+[![contributors](https://contrib.rocks/image?repo=JinLeebriller/AlgorithmStudy)](https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors)
+
 #
 ## ✅ 스터디 규칙
 
