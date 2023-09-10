@@ -8,7 +8,14 @@ public class Solution {
 		 ***
 		 ****
 	*/
-	static void triangleLB(int n) 
+	static void triangleLB(int n){
+		for(int i=1; i<5; i++){
+			for(int j=0; j<i; j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
 	
 	// 왼쪽 위가 직각인 이등변삼각형을 출력
 	/*
