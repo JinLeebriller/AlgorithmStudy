@@ -1,5 +1,6 @@
 // Q. 직각이등변삼각형을 출력하는 부분을 아래와 같은 형식의 메서드로 작성하세요.
 public class Solution {
+
 	
 	public static void main(String[] args) {
 		triangleRB(4);
