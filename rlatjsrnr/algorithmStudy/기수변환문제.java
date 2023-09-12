@@ -18,7 +18,7 @@ public class 기수변환문제 {
     do{
         if(num < n){
             sb.append(num);
-            System.out.printf("    %d  ... %d%n", num/n,mod);
+            System.out.printf("    %d  ... %d%n", num/n, num);
             break;
         }else{
             mod = num % n;
