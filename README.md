@@ -31,8 +31,7 @@
 ## 📮 Commit Convention
 - add: 풀이 추가
 - refactor : 풀이 리팩토링
-- fix: 모든 풀이 수정
-- docs: 문서 수정(코드 수정X)
+
 #
 ```
 ex)
