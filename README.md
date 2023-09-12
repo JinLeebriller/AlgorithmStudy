@@ -4,11 +4,11 @@
 
 #
 ## 🤲🏻 스터디 멤버
-<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=JinLeebriller/AlgorithmStudy" />
-</a>
 
-[![contributors](https://contrib.rocks/image?repo=JinLeebriller/AlgorithmStudy)](https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors)
+<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/JinLeebriller.png" width="60px;"/></a>
+<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/rlatjsrnr.png" width="60px;"/></a>
+<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/amung9914.png" width="60px;"/></a>
+<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/smetmoney.png" width="60px;"/></a>
 
 #
 ## ✅ 스터디 규칙
