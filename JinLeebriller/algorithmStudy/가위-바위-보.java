@@ -19,9 +19,9 @@ public class Solution {
 		Map<Character, Character> list = new HashMap<>(); 
 		
 		do {
-			System.out.print("참여 인원을 선택하세요(1~5명) : ");
+			System.out.print("참여 인원을 선택하세요(2~5명) : ");
 			people = sc.nextInt();
-		}while(people <= 0 || people > 5);
+		}while(people <= 1 || people > 5);
 		
 		for(int i = 0 ; i < people ; i++) list.put(friend.get(i), '0');
 		
