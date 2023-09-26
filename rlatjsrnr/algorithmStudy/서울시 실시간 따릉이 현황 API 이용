@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        const api = "http://spartacodingclub.shop/sparta_api/seoulbike";
+        const reload = () => {
+           $.getJSON("http://spartacodingclub.shop/sparta_api/seoulbike",{},function (data){
+                let arr = data["getStationList"]["row"];
+                for(let i=0; i<arr.length; i++){
+                    let str = '';
+                    if(arr[i]["parkingBikeTotCnt"]<=5){
+                        str += '<tr style="color:red;">';
+                    }else{
+                        str += '<tr>';
+                    }
+
+                    str += '<td>';
+                    str += arr[i]["stationName"];
+                    str += '</td>';
+                    str += '<td>';
+                    str += arr[i]["rackTotCnt"];
+                    str += '</td>';
+                    str += '<td>';
+                    str += arr[i]["parkingBikeTotCnt"];
+                    str += '</td>';
+                    str += '</tr>';
+
+                    $("#names-q1").append(str);
+                }
+           });
+
+
+        };
+    </script>
+    <style>
+
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button onclick="reload()">업데이트</button>
+    <table>
+        <thead>
+        <tr>
+            <td>거치대 위치</td>
+            <td>거치대 수</td>
+            <td>현재 거치된 따릉이 수</td>
+        </tr>
+        </thead>
+        <tbody id="names-q1">
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
