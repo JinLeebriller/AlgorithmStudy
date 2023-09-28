@@ -1,0 +1,71 @@
+<!-- 
+문제1. 서울시 실시간 따릉이 현황 API 이용 
+
+서울시 모든 위치의 따릉이 현황을 보여주는 웹 페이지를 구현해보자. 
+단, 업데이트 버튼을 누를 때마다 모든 정보가 새로 표기되어야 하며, 
+현재 거치된 따릉이 수(parkingBikeTotCnt)가 5개 이하인 경우 글자색을 빨간색으로 나타내어야 한다.
+-->
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        const api = "http://spartacodingclub.shop/sparta_api/seoulbike";
+        
+        $(document).ready(function(){
+            reload();
+        });
+
+        const reload = () => {
+            $.ajax ({
+                url : api,
+                type : "GET",
+                data : {},
+                contentType : "application/json",
+                success : function(result) {
+                  // 데이터를 테이블에 표시
+                  var tbody = $("#names-q1");
+                  tbody.empty(); // 테이블 내용 초기화
+
+                  // 각 행을 테이블에 추가
+                  $.each(result.getStationList.row, function(index, item) {
+                        var tr = $("<tr>");
+                        tr.append("<td>" + item.stationName + "</td>");
+                        tr.append("<td>" + item.rackTotCnt + "</td>");
+                        tr.append("<td>" + item.parkingBikeTotCnt + "</td>");
+                        if(item.parkingBikeTotCnt <= 5) tr.css('color', 'red');
+                        tbody.append(tr);
+                  });
+                }
+            });
+        };
+    </script>
+    <style>
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="reload()">업데이트</button>
+        <table>
+            <thead>
+                <tr>
+                    <td>거치대 위치</td>
+                    <td>거치대 수</td>
+                    <td>현재 거치된 따릉이 수</td>
+                </tr>
+            </thead>
+            <tbody id="names-q1">
+            </tbody>
+        </table>
+    </div>
+</body>
