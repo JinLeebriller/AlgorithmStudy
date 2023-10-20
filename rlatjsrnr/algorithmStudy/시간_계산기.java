@@ -14,8 +14,7 @@ public class Time {
         int answerSec = Integer.parseInt(currTime[2]) + sec;
         int answerMin = Integer.parseInt(currTime[1]);
         int answerHour = Integer.parseInt(currTime[0]);
-
-        String result = "";
+        
         if(answerSec >= 60){
             int temp = answerSec / 60;
             answerSec %= 60;
