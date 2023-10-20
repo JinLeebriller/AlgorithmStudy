@@ -26,14 +26,7 @@ public class AIVacuum {
         x = Math.abs(x);
         y = Math.abs(y);
 
-        if(n >= x+y){
-            if((x+y)%2==0 && n%2==0){
-                return "Yes";
-            }
-            if((x+y)%2==1 && n%2==1){
-                return "Yes";
-            }
-        }
+        if(n >= x+y && (x+y)%2 == n%2) return "Yes";
         return "No";
     }
 }
