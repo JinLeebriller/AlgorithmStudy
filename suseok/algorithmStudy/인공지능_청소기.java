@@ -3,6 +3,7 @@ package suseok;
 import java.util.Scanner;
 
 public class RobotCleaner {
+
     public static void main(String[] args) {
     	
     	System.out.print("테스트를 시행할 횟수를 정하세요 : ");
