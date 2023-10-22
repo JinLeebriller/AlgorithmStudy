@@ -1,4 +1,3 @@
-
 package suseok;
 
 import java.util.Scanner;
