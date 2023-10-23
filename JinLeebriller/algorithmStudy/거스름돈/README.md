@@ -16,14 +16,14 @@
 
 <h4>예제</h4>
 
-예제 입력 #1 
-<code>380</code> 
-예제 출력 #1 
-<code>4</code>
+예제 입력 #1</br>
+<code>380</code></br>
+예제 출력 #1</br>
+<code>4</code></br>
 
-예제 입력 #2 
-<code>1</code>
-예제 출력 #2 
-<code>15</code>
+예제 입력 #2</br>
+<code>1</code></br>
+예제 출력 #2</br>
+<code>15</code></br>
 
 
