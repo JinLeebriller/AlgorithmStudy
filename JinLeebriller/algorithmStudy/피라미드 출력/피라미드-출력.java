@@ -1,4 +1,3 @@
-// Q. n단의 피라미드를 출력하는 메서드를 작성하세요.
 public class 피라미드_출력 {
 	
 	static void spira(int n) {
@@ -17,5 +16,4 @@ public class 피라미드_출력 {
 	public static void main(String[] args) {
 		spira(5);
 	}
-	
 }
