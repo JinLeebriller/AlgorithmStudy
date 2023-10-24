@@ -2,7 +2,6 @@ package algorithmStudy;
 
 import java.util.Scanner;
 
-// Q6. 기수 변환 과정을 자세히 나타내는 프로그램을 작성하세요.
 public class 기수변환문제 {
 	public static void main(String[] args) {
 		
