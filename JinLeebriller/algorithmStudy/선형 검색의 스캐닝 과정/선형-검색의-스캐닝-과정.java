@@ -1,22 +1,5 @@
 package algorithmStudy;
 
-// Q2. 선형 검색의 스캐닝 과정을 다음과 같이 자세히 출력하는 프로그램을 작성하세요.
-/*
-	   | 0 1 2 3 4 5 6
-	---+----------------
-	   | *
-	  0| 6 4 3 2 1 9 8
-	   |
-	   |   *
-	  1| 6 4 3 2 1 9 8
-	   |
-	   |     *
-	  2| 6 4 3 2 1 9 8
-	   |
-	   |       *
-	  3| 6 4 3 2 1 9 8
-	그 값은 x[3]에 있습니다.
-*/
 public class Solution {
 	
 	static void seqSearch(int[] a, int num, int key) {
