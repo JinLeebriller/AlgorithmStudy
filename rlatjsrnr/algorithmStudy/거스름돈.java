@@ -10,34 +10,13 @@ public class Coin {
     }
 
     public static int coin(int money){
+        int[] coins = {500, 100, 50, 10, 5, 1};
         int result=0;
-        result += (money / 500);
-        money %= 500;
-
-        if(money == 0) return result;
-
-        result += (money / 100);
-        money %= 100;
-
-        if(money == 0) return result;
-
-        result += (money / 50);
-        money %= 50;
-
-        if(money == 0) return result;
-
-        result += (money / 10);
-        money %= 10;
-
-        if(money == 0) return result;
-
-        result += (money / 5);
-        money %= 5;
-
-        if(money == 0) return result;
-
-        result += (money);
-
+        for(int i : coins){
+            result += (money / i);
+            money %= i;
+            if(money == 0) break;
+        }
         return result;
     }
 }
