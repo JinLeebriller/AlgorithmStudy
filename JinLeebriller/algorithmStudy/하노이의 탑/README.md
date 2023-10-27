@@ -41,7 +41,7 @@
 입출력 예 #1</br>
 다음과 같이 옮길 수 있습니다.
 
-![SWEqD08](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/5c29f56d-c899-4016-a60d-55f951f9b4c9)
-![2](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/2297c86a-305d-4e2e-a7f1-30ecda280e35)
-![3](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/efae13c1-2bc9-4613-bd38-1c247dd7bc9b)
-![4](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/0d63acb7-7a6d-42b9-a76f-888669c20102)
+![SWEqD08](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/5c29f56d-c899-4016-a60d-55f951f9b4c9) </br>
+![2](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/2297c86a-305d-4e2e-a7f1-30ecda280e35) </br>
+![3](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/efae13c1-2bc9-4613-bd38-1c247dd7bc9b) </br>
+![4](https://github.com/JinLeebriller/AlgorithmStudy/assets/137128382/0d63acb7-7a6d-42b9-a76f-888669c20102) </br>
