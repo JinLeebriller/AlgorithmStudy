@@ -4,22 +4,22 @@
 
 import java.util.*;
 class Solution {
-    static List<int[]> list = new ArrayList<>();
+    
+    static int[][] answer;
+    static int count=0;
+    
     public int[][] solution(int n) {
-        int[][] answer = new int[(int)Math.pow(2,n)-1][2];
+        answer = new int[(int)Math.pow(2,n)-1][2];
         move(n,1,3);
-        for(int i=0; i<list.size();i++){
-            answer[i]= list.get(i);
-        }
-        return answer;   
+        return answer; 
     }
-    public static void move(int num, int x, int y){ // 옮길원반개수,원래위치,목표위치
-        if(num>1) // n-1까지 1라인을 중간으로 옮기기
+    public static void move(int num, int x, int y){ // 개수,원래위치,목표위치
+        if(num>1) //중간으로 옮기기
             move(num-1,x,6-x-y);
-       
-        list.add(new int[]{x,y}); // n을 목표 위치로 옮기기
-       
-        if(num>1)   // 중간위치에 있는 것들을 목표위치로 옮기기
+
+        answer[count++] = new int[]{x,y};
+
+        if(num>1)   // 목표위치로 옮기기
             move(num-1,6-x-y,y);
     }
 }
