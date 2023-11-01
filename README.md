@@ -10,6 +10,7 @@
 <a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/rlatjsrnr.png" width="60px;"/></a>
 <a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/amung9914.png" width="60px;"/></a>
 <a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/smetmoney.png" width="60px;"/></a>
+<a href="https://github.com/JinLeebriller/AlgorithmStudy/graphs/contributors"><img src="https://github.com/m1njunK.png" width="60px;"/></a>
 
 #
 ## ✅ 스터디 규칙
