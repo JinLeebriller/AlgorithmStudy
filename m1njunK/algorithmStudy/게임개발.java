@@ -71,6 +71,7 @@ public class 게임개발 {
 					if(map[NA][NB]==0) {
 						A = NA;
 						B = NB;
+						cnt = 0;
 					}else flag = false;
 				}
 			}
