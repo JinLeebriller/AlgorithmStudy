@@ -1,34 +1,32 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class Yutnori {
-    
+
     public static void main(String[] args) {
         int sum = 0;
-        Map<Integer,Integer> map = new HashMap<>();
+        int[] arr = new int[5]; // 결과값을 담을 배열
         for(int i=0; i<10; i++){
-            String input = generateYut();
-            int result = game(input);
-            map.merge(result, 1, Integer::sum);
+            String input = generateYut(); // 입력값 생성
+            int result = game(input); // 윳 개수 카운팅
+            arr[result]++;
             sum += result;
         }
         String[] resultYutStr = {"모","도","개","걸","윷"};
         for(int i=0; i< resultYutStr.length; i++){
-            printYut(resultYutStr,map,i);
+            printYut(resultYutStr,arr,i);
         }
         System.out.println();
         System.out.println("총"+sum+"칸 전진하였습니다.");
     }
 
     // 윷 게임 결과 출력
-    private static void printYut(String[] resultYutStr, Map<Integer, Integer> map, int i) {
-        if(map.containsKey(i)){
-            System.out.print(resultYutStr[i]+" "+map.get(i)+"회 ");
+    private static void printYut(String[] resultYutStr, int[] arr, int i) {
+        if(arr[i]>0){
+            System.out.print(resultYutStr[i]+" "+arr[i]+"회 ");
         }
     }
 
-    // 뒤집힌 윷 카운트 
+    // 뒤집힌 윷 카운트
     private static int game(String input) {
         String[] arr = input.split(" ");
         int result = 0;
