@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class GroupCount {
 
     static int sum = 0; //그룹단어가 아닌 수 합계
