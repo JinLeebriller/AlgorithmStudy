@@ -12,10 +12,6 @@ public class 부분출력 {
 
         for (char compare : number.toCharArray()) {
             if (compare == '6') {
-                if (checkNumber) {
-                    System.out.print(result.toString());
-                    result.setLength(0);
-                }
                 checkNumber = true;
             }
 
