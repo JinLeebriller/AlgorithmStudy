@@ -1,3 +1,4 @@
+//부분출력 왜이렇게 어렵나요
 package suseok;
 
 public class 부분출력 {
