@@ -1,5 +1,3 @@
-
-// 부분출력 왜이렇게 어렵나요
 package suseok;
 
 public class 부분출력 {
@@ -9,22 +7,30 @@ public class 부분출력 {
         String number = "98451984614487541689572165421";
 
         boolean checkNumber = false;
+        StringBuilder result = new StringBuilder();
 
         for (char compare : number.toCharArray()) {
-        	
-        	// 처음 조건 6
             if (compare == '6') {
-            	checkNumber = true;
-            }
-            
-            if (checkNumber) {
-                System.out.print(compare);
+                if (checkNumber) {
+                    System.out.print(result.toString());
+                    result.setLength(0);
+                }
+                checkNumber = true;
             }
 
-            // 마지막 조건 7
-            if (checkNumber && compare == '7') {
-            	checkNumber = false;
+            if (checkNumber) {
+                result.append(compare);
             }
+
+            if (checkNumber && compare == '7') {
+                System.out.print(result.toString());
+                result.setLength(0);
+                checkNumber = false;
+            }
+        }
+
+        if (checkNumber) {
+            System.out.print(result.toString());
         }
     }
 }
