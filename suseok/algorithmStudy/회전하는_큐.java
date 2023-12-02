@@ -7,6 +7,8 @@ https://st-lab.tistory.com/216
 회전하는 큐(quque) 이해를 위한 ArrayDeque 찾아봤어요 근데 무슨소린지 모르겠어요
 일단 출력문대로 되긴 되는데 이거 어디서 나온 문제인가요 왜캐 어려움;;
 
+잠시 커밋을 위한 글을 씁니다
+
 package suseok;
 
 import java.io.BufferedReader;
