@@ -11,25 +11,21 @@ public class 듣보잡 {
         int M = scanner.nextInt();
         scanner.nextLine();
 
-        List<String> nameforN = new ArrayList<>();
-        List<String> nameforM = new ArrayList<>();
-        List<String> none = new ArrayList<>();
+        List<String> nameList = new ArrayList<>();
+        List<String> same = new ArrayList<>();
         for (int i = 0; i < N; i++) {
-            nameforN.add(scanner.nextLine());
+            nameList.add(scanner.nextLine());
         }
         for (int i = 0; i < M; i++) {
-            nameforM.add(scanner.nextLine());
-        }
-
-        for (String s : nameforM) {
-            if(nameforN.contains(s)){
-                none.add(s);
+            String name = scanner.nextLine();
+            if(nameList.contains(name)){
+                same.add(name);
             }
         }
-        Collections.sort(none);
-      //출력
-        System.out.println(none.size());
-        for (String s : none) {
+
+        Collections.sort(same);
+        System.out.println(same.size());
+        for (String s : same) {
             System.out.println(s);
         }
     }
