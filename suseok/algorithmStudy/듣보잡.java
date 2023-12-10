@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 // ArrayList의 retainAll(Collection)는 List에서 인자로 전달받은 Collection 객체가 갖고 있는 요소들을 제외한 나머지를 삭제합니다.
-// 그리고 hashset도 사용 가능한 retainAll
+// 그리고 hashset도 사용 가능한 retainAll을 사용했습니다.
 // 참고한 사이트 https://codechacha.com/ko/java-collections-arraylist-retainall/
 
 public class 듣보잡 {
