@@ -4,7 +4,7 @@
 
 JQuery와 Ajax를 사용해 예제를 풀어보자.
 
-https://api.thedogapi.com/v1/images/search
+https://api.thedogapi.com/v1/images/search</br>
 https://api.thecatapi.com/v1/images/search
 
 두 링크(개와 고양이) 중 원하는 API를 사용하면 된다.
