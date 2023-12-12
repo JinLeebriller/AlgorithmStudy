@@ -9,6 +9,7 @@ import java.util.List;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
         List<String> inputList = new ArrayList<>();
         int count = 0;
@@ -28,7 +29,9 @@ public class Solution {
             inputList.add(input);
         }
 
-        System.out.println(count);
+        bw.write(count + "\n");
+        bw.flush();
         br.close();
+        bw.close();
     }
 }
