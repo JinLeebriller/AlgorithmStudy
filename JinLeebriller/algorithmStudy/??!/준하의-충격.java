@@ -6,12 +6,14 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) {
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out))) {
 
             String existingId = br.readLine();
             String shockingOfJoona = existingId + "??!";
 
-            System.out.println(shockingOfJoona);
+            bw.write(shockingOfJoona);
+            bw.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
