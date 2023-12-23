@@ -11,7 +11,7 @@ public class Question {
     public static void main(String[] args) {
     	
     	// 이름 저장
-        String namesStr = "이유덕,이재영,권종표,이재영,박민호,강상희,이재영,김지완,권종표,최승혁,이유덕,박민호 이재영,이성연,박영서,박민호,권종표,전경헌,송정환,김재성,이유덕,전경헌,권종표,이재영";
+        String namesStr = "이유덕,이재영,권종표,이재영,박민호,강상희,이재영,김지완,권종표,최승혁,이유덕,박민호,이재영,이성연,박영서,박민호,권종표,전경헌,송정환,김재성,이유덕,전경헌,권종표,이재영";
 
         // 저장한 이름을 구분
         List<String> namesList = Arrays.asList(namesStr.split(","));
@@ -45,7 +45,6 @@ public class Question {
         System.out.println("6. 중복된 이름의 총 갯수: " + totalduplicateName);
     }
 }
-
 
 
 
