@@ -1,3 +1,6 @@
+// 문제를 다시 정리하는거지만
+// 선물을 받는 friends랑 받는 선물인 gifts를 입력받아 표 형식으로 저장을 해 결과값을 return하는 코드
+
 
 package suseok;
 
