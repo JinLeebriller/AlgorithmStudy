@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class Matchstick {
 
-    // 0 1 2 3 4 5 ~ 9
+    // 0 1 2 3 4 5 ~ 9 
     // 숫자는 0으로 시작할 수 없다
     static long[] minDp;
     
